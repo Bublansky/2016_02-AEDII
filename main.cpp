@@ -24,9 +24,10 @@ int main()
     int E[tam] = {-1, 1, 8, 7, 6, 5, 4, 3, 2, 1};
     int D[tam] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
     char A[tam] = "BCGHADEFI";
+    Grafo g = Grafo(tam);
 
     //ShowArray(A, tam);
-    cout << endl;
+    cout << endl << endl;
 
     //Bublesort_ND(A, tam);
     //Insertionsort_ND(A, tam);
@@ -35,8 +36,11 @@ int main()
     //Mergesort_ND(A, 0, tam - 1);
     //Heapsort(A, tam);
     //Shellsort_ND(B, tam);
-    Countingsort_ND(E, D, 8, tam - 1);
-    ShowArray(D, tam);
+    //Countingsort_ND(E, D, 8, tam - 1);
+    //ShowArray(D, tam);
+
+	cout << endl << endl;
+	cin >> tam;
 
     return 0;
 }
